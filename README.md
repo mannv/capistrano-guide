@@ -5,8 +5,11 @@ trong quá trình cài ruby có thể có ko có bản >= 2.x
 thì chạy các lệnh sau
 
 sudo apt-get install software-properties-common python-software-properties
+
 apt-add-repository ppa:brightbox/ruby-ng
+
 apt-get update
+
 apt-get install ruby2.3
 
 Cài đặt capistrano
@@ -17,6 +20,8 @@ gem install capistrano
 cd tới thư mục gốc của project, chạy lệnh
 cap install
 hệ thống tự động sinh ra những file sau
+
+```
 ├── Capfile
 ├── config
 │   ├── deploy
@@ -26,6 +31,7 @@ hệ thống tự động sinh ra những file sau
 └── lib
     └── capistrano
             └── tasks
+```
 
 để clone được code từ github phải tạo Deploy keys project trên github
 https://github.com/mannv/base-api/settings/keys
