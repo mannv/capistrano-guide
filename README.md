@@ -1,19 +1,26 @@
 Yêu cầu phải cài đặt những thứ sau ở client
+```
 install: git, ruby >= 2.0
+```
 
 trong quá trình cài ruby có thể có ko có bản >= 2.x
 thì chạy các lệnh sau
 
+```
+sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-get update
+sudo apt-get install ruby2.3
+```
+
+nếu chạy lệnh sudo apt-add-repository ppa:brightbox/ruby-ng mà bị lỗi thì chạy lệnh này để fix
+```
 sudo apt-get install software-properties-common python-software-properties
+```
 
-apt-add-repository ppa:brightbox/ruby-ng
-
-apt-get update
-
-apt-get install ruby2.3
-
-Cài đặt capistrano
+## Cài đặt capistrano
+```
 gem install capistrano
+```
 
 Để đưa tích hợp capistrano vào project bất kỳ chạy lệnh sau
 
