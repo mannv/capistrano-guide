@@ -76,4 +76,4 @@ VD:
 ```
 cap production deploy
 ```
-*trong thư mục **./config/deploy** phải có file cấu hình với tên **production.rb***
+trong thư mục **./config/deploy** phải có file cấu hình với tên **production.rb**
