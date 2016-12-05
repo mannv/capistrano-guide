@@ -65,3 +65,15 @@ VD SSH Key:
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC85kNz0VeNep9QHXftau/5nlTsDm5PfZS4lHkh6RMENu8kweFGBwhpfb215WbJYuugJUc1yOmaSO7GGRiX2He7CfzicoGNcapmYLQCXQbBLzHBL2YWeJX84WAhMqIEaJSE5j4AMThE7HwrK/GaBj68vksyJD6I5E5Q8/TQ6xbKLFISSgOHgWeoOL7wfMUn96RM74ybRIAGvex4slkBKLKBy6bFVdTEDT1CHN8Oih3Q2mQr94mWKG9Pj1/XCr4VoFoxW50P2DeZTj3HieJOEmWPijFXMF90FqoqVuROcopQrqbPoCo0IEUKYtBsGzNyH+Samzg/HlnKepGEHEf0nXI2qMAc2KpqIDm1CFskLlwp7rI1LcSKywv+MVRrhPy4W16DxE0PAqU1iV2gCzC5vOPbzhLzMAHC6/VZTIG/IOtKHAtVkN3hgwodNC8SVuhMvtA/oi3UgyyWPxm/JVH2ygXpjA1kVV0Yv8ZAoJqD75G5RDvzBmYO4x+UFR+KHcQ9qj6yyrw7YthFi6lhZZ+tXt2V7kaNkx0Znh0peM1JUw+dtchfONNpA/lixULLL8ZNhcIc3IRr86YPS97BgE/LwC2BopaZlxPWXuDOatetN+4Lo/yTnXcqaXYhp5HnAk2bowyLI5tZ591K5Iut5e1Jjq2zcFfQLi2zaeOVxh+wDv/W/w== man.nv@kayac.vn
 ```
+
+
+# Deploy command line
+
+```
+cap <tên file trong thư mục ./config/deploy> deploy
+```
+VD:
+```
+cap production deploy
+```
+*trong thư mục **./config/deploy** phải có file cấu hình với tên **production.rb***
