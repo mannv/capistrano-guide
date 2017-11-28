@@ -8,6 +8,7 @@ trong quá trình cài ruby có thể ko có bản >= 2.x
 thì chạy các lệnh sau
 
 ```
+sudo apt-get install software-properties-common python-software-properties
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get install ruby2.3
